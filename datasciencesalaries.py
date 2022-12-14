@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 import country_converter as coco
 
 theme_colors = ['#FF1654', '#20A4F3', '#14A073', '#F9C846', '#4C5760']
-df = pd.read_csv('C:\\Users\\alexi\\OneDrive\\Desktop\\pandaspython\\ds_salaries_worklevel.csv')
+df = pd.read_csv('E:\\School\\DataScience\\DataScienceSalaries\\ds_salaries_worklevel.csv')
 
 # Remove all values greater then 599000
 df.drop(['Unnamed: 0'], axis=1, inplace=True)
